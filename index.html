@@ -1,0 +1,1206 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dikshant Sharma Personal Portfolio</title>
+
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon">
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!--
+    - #MAIN
+  -->
+
+  <main>
+
+    <!--
+      - #SIDEBAR
+    -->
+
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+        <figure class="avatar-box">
+          <img src="./assets/images/my-avatar.jpg" alt="Dikshant Sharma" width="80">
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="Dikshant Sharma">Dikshant Sharma</h1>
+
+          <p class="title">Data Analyst</p>
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+
+              <a href="dikshant8859gmail.com" class="contact-link">dikshant8859gmail.com</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Phone</p>
+
+              <a href="tel:+91 88******46" class="contact-link">+91 88*****46</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="calendar-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Birthday</p>
+
+              <time datetime="1982-06-23">April 20, 2001</time>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+
+              <address>Noida, Uttar Pradesh, India</address>
+            </div>
+
+          </li>
+
+        </ul>
+
+        <div class="separator"></div>
+
+        <ul class="social-list">
+
+          <li class="social-item">
+            <a target="_blank" href="https://www.linkedin.com/in/panditdikshantsharma/" class="social-link">
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a target="_blank" href="https://github.com/pandit-dikshant-sharma" class="social-link">
+              <ion-icon name="logo-github"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a target="_blank" href="https://medium.com/@pandit-dikshant-sharma" class="social-link">
+              <ion-icon name="logo-medium"></ion-icon>
+            </a>
+          </li>
+
+          
+          <li class="social-item">
+            <a target="_blank" href="https://www.instagram.com/pandit_dikshant_sharma/" class="social-link">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+
+          
+          <li class="social-item">
+            <a target="_blank" href="https://x.com/dikshant9528" class="social-link">
+              <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+          </li>
+
+           <li class="social-item">
+            <a target="_blank" href="https://wa.link/e7uy76" class="social-link">
+              <ion-icon name="logo-whatsapp"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+      </div>
+
+    </aside>
+
+
+
+
+
+    <!--
+      - #main-content
+    -->
+
+    <div class="main-content">
+
+      <!--
+        - #NAVBAR
+      -->
+
+      <nav class="navbar">
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <button class="navbar-link  active" data-nav-link>About</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Resume</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Portfolio</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Blog</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Contact</button>
+          </li>
+
+        </ul>
+
+      </nav>
+
+
+
+
+
+      <!--
+        - #ABOUT
+      -->
+
+      <article class="about  active" data-page="about">
+
+        <header>
+          <h2 class="h2 article-title">About me</h2>
+        </header>
+
+        <section class="about-text">
+          <p>
+           Hi, I’m Dikshant Sharma — a Data Analyst with a background in Computer Applications and a strong interest in turning numbers into clear, actionable insights. Over the last few years, I’ve developed hands-on experience working with tools like Excel, SQL, Python, Power BI, and Tableau to clean, analyze, and visualize data in ways that help teams make better decisions.
+          </p>
+
+          <p>
+           I enjoy digging into data, finding patterns, and presenting insights in a way that makes sense to everyone — not just technical people. Whether it’s building dashboards, running reports, or analyzing trends, I approach every project with curiosity and attention to detail.
+          <br>
+          <br>
+          I’m constantly learning and trying to get better at what I do — exploring topics like data visualization, business intelligence, and AI-driven analytics. Right now, I’m looking for meaningful opportunities where I can contribute to real projects, learn from experienced teams, and continue growing in the field of data analytics.
+          </p>
+        </section>
+
+
+        <!--
+          - service
+        -->
+
+        <section class="service">
+
+          <h3 class="h3 service-title">What i'm doing</h3>
+
+          <ul class="service-list">
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-design.svg
+                " alt="design icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Data Analysis</h4>
+
+                <p class="service-item-text">
+                  I analyze data to discover patterns, trends, and insights that help in making better business decisions using tools like Excel, SQL, and Python.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-dev.svg" alt="Web development icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Data Visualization</h4>
+
+                <p class="service-item-text">
+                  I create interactive and meaningful dashboards using Power BI, Tableau, and Python libraries to communicate data-driven insights clearly.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-app.svg" alt="mobile app icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Data Cleaning</h4>
+
+                <p class="service-item-text">
+                  I clean, preprocess, and organize raw data to make it usable and reliable for analysis, ensuring data accuracy and consistency.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-photo.svg" alt="camera icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Data Collection</h4>
+
+                <p class="service-item-text">
+                  I gather structured and unstructured data from multiple sources including databases, APIs, spreadsheets, and public datasets to support analysis and decision-making.
+                </p>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section>
+
+
+        <!--
+          - testimonials
+        -->
+
+        <section class="testimonials">
+
+          <h3 class="h3 testimonials-title">Testimonials</h3>
+
+          <ul class="testimonials-list has-scrollbar">
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/avatar-1.png" alt="Daniel lewis" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Shubham Rajput
+                </h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    Dikshant has a strong grip on tools like Excel, Power BI, and Python. His ability to understand data and draw meaningful insights is truly impressive for someone at his stage.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/avatar-2.png" alt="Jessica miller" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Neha Sharma</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    Dikshant is a quick learner and always curious about data. His passion for data analysis and consistent practice of new tools makes him stand out from his peers.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/avatar-3.png" alt="Emily evans" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Vinita Yadav</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    What I really admire about Dikshant is his attention to detail and problem-solving mindset. He is very comfortable working with large datasets and finding insights from them.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/avatar-4.png" alt="Henry william" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Saksham Gupta</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    Dikshant is skilled in data cleaning, visualization, and storytelling. His understanding of the data analysis process shows great potential for a successful career in analytics.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </section>
+
+
+        <!--
+          - testimonials modal
+        -->
+
+        <div class="modal-container" data-modal-container>
+
+          <div class="overlay" data-overlay></div>
+
+          <section class="testimonials-modal">
+
+            <button class="modal-close-btn" data-modal-close-btn>
+              <ion-icon name="close-outline"></ion-icon>
+            </button>
+
+            <div class="modal-img-wrapper">
+              <figure class="modal-avatar-box">
+                <img src="./assets/images/avatar-1.png" alt="Daniel lewis" width="80" data-modal-img>
+              </figure>
+
+              <img src="./assets/images/icon-quote.svg" alt="quote icon">
+            </div>
+
+            <div class="modal-content">
+
+              <h4 class="h3 modal-title" data-modal-title>Daniel lewis</h4>
+
+              <time datetime="2021-06-14">14 June, 2021</time>
+
+              <div data-modal-text>
+                <p>
+                  Richard was hired to create a corporate identity. We were very pleased with the work done. She has a
+                  lot of experience
+                  and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
+                  consectetur adipiscing
+                  elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
+                </p>
+              </div>
+
+            </div>
+
+          </section>
+
+        </div>
+
+
+        <!--
+          - clients
+        -->
+
+        <section class="clients">
+
+          <h3 class="h3 clients-title">Tools & Technologies</h3>
+
+          <ul class="clients-list has-scrollbar">
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/logo-1-color.png" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/logo-2-color.png" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/logo-3-color.png" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/logo-4-color.png" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/logo-5-color.png" alt="client logo">
+              </a>
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #RESUME
+      -->
+
+      <article class="resume" data-page="resume">
+
+        <header>
+          <h2 class="h2 article-title">Resume</h2>
+        </header>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Education</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Uttar Pradesh State Board of High School and Intermediate Education</h4>
+
+              <span>2016 — 2017</span>
+
+              <p class="timeline-text">
+                I completed my 10th (High School) in 2017 from the Uttar Pradesh State Board of High School and Intermediate Education. During this time, I chose Computer as one of my main subjects, which helped me build a strong foundation in computer science and sparked my interest in technology. This early exposure played an important role in shaping my future career in data and analytics.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Uttar Pradesh State Board of High School and Intermediate Education</h4>
+
+              <span>2018 — 2019</span>
+
+              <p class="timeline-text">
+                I completed my 12th (Intermediate) in 2019 from the Uttar Pradesh State Board of High School and Intermediate Education. This phase of my education helped me grow academically and personally, and it prepared me for higher studies in the field of computer applications and technology.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Chaudhary Charan Singh Universit Meerut, Uttar Pradesh</h4>
+
+              <span>2020 — 2023</span>
+
+              <p class="timeline-text">
+                I completed my Bachelor of Computer Applications (BCA) from Chaudhary Charan Singh University in 2023. During this course, I gained a strong understanding of programming, databases, and data analysis. It helped me build essential technical skills and deepened my interest in data science, analytics, and modern technologies like AI and machine learning.
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Experience</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Aspiring Data Analyst (Fresher)</h4>
+
+              <span>2024 — Present</span>
+
+              <p class="timeline-text">
+                As a passionate and dedicated Data Analyst enthusiast, I’ve been consistently learning and applying skills across the entire Data Analyst through self-study, online courses, and hands-on projects. Though I’m early in my professional journey, I’ve built a strong foundation in data preprocessing, Data Wrangling, Analysis & Visualization.
+                <br>
+                <br>
+                Key Skills: 
+                <br>
+                <br>
+                     Data Analysis & Visualization:  Exploratory data analysis, data cleaning, trend identification, visual storytelling
+                <br>
+                <br>
+                Tools & Libraries: Python (Pandas, NumPy, Matplotlib, Seaborn, Scikit-learn), SQL, Excel, Power BI
+                <br>
+                <br>
+                Reporting & Dashboards: Interactive dashboards, KPI tracking, data-driven reporting, business insights presentation
+                <br>
+                <br>
+                Database & Querying: Writing complex SQL queries, joining datasets, filtering, aggregating, and optimizing data extraction</p>
+
+            </li>
+
+          
+          <!--
+                
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Art director</h4>
+
+              <span>2013 — 2015</span>
+
+              <p class="timeline-text">
+                Nemo enims ipsam voluptatem, blanditiis praesentium voluptum delenit atque corrupti, quos dolores et
+                quas molestias
+                exceptur.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Web designer</h4>
+
+              <span>2010 — 2013</span>
+
+              <p class="timeline-text">
+                Nemo enims ipsam voluptatem, blanditiis praesentium voluptum delenit atque corrupti, quos dolores et
+                quas molestias
+                exceptur.
+              </p>
+
+            </li>
+
+
+          -->
+
+          </ol>
+
+        </section>
+
+        <section class="skill">
+
+          <h3 class="h3 skills-title">My skills</h3>
+
+          <ul class="skills-list content-card">
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Microsoft Excel</h5>
+                <data value="85">85%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 85%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Python (Pandas, NumPy, Matplotlib, Seaborn)</h5>
+                <data value="90">90%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 80%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">SQL</h5>
+                <data value="90">90%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 90%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Power BI</h5>
+                <data value="90">90%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 90%;"></div>
+              </div>
+            </li>
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+      <!--
+        - #PORTFOLIO
+      -->
+
+      <article class="portfolio" data-page="portfolio">
+
+        <header>
+          <h2 class="h2 article-title">Portfolio</h2>
+        </header>
+
+        <section class="projects">
+
+          <ul class="filter-list">
+
+            <li class="filter-item">
+              <button class="active" data-filter-btn>All</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Web design</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Applications</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Web development</button>
+            </li>
+
+          </ul>
+
+          <div class="filter-select-box">
+
+            <button class="filter-select" data-select>
+
+              <div class="select-value" data-selecct-value>Select category</div>
+
+              <div class="select-icon">
+                <ion-icon name="chevron-down"></ion-icon>
+              </div>
+
+            </button>
+
+            <ul class="select-list">
+
+              <li class="select-item">
+                <button data-select-item>All</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Web design</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Applications</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Web development</button>
+              </li>
+
+            </ul>
+
+          </div>
+
+          <ul class="project-list">
+
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/Coming Soon.jpg" alt="finance" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Coming Soon</h3>
+
+                <p class="project-category">Web development</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/Coming Soon.jpg" alt="orizon" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Coming Soon</h3>
+
+                <p class="project-category">Web development</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web design">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/Coming Soon.jpg" alt="fundo" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Coming Soon</h3>
+
+                <p class="project-category">Web design</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="applications">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/Coming Soon.jpg" alt="brawlhalla" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Coming Soon</h3>
+
+                <p class="project-category">Applications</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web design">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/Coming Soon.jpg" alt="dsm." loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Coming Soon</h3>
+
+                <p class="project-category">Web design</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web design">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/Coming Soon.jpg" alt="metaspark" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Coming Soon</h3>
+
+                <p class="project-category">Web design</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/Coming Soon.jpg" alt="summary" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Coming Soon</h3>
+
+                <p class="project-category">Web development</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="applications">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/Coming Soon.jpg" alt="task manager" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Coming Soon</h3>
+
+                <p class="project-category">Applications</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/Coming Soon.jpg" alt="arrival" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Coming Soon</h3>
+
+                <p class="project-category">Web development</p>
+
+              </a>
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+      <!--
+        - #BLOG
+      -->
+
+      <article class="blog" data-page="blog">
+
+        <header>
+          <h2 class="h2 article-title">Blog</h2>
+        </header>
+
+        <section class="blog-posts">
+
+          <ul class="blog-posts-list">
+
+            <li class="blog-post-item">
+              <a target="_blank" href="https://pandit-dikshant-sharma.medium.com/from-zero-to-hero-how-to-become-a-full-stack-data-scientist-in-2025-adaec5a18d57" >
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/Full-Stack-Data-Scientist.webp" alt="Design conferences in 2022" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Data Science</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">Fab 25, 2025</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">How to Become a Full Stack Data Scientist in 2025</h3>
+
+                  <p class="blog-text">
+                   In today’s data-driven world, the role of a Full Stack Data Scientist is one of the most powerful and high-paying careers in tech.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a target="_blank" href="https://pandit-dikshant-sharma.medium.com/data-analyst-vs-data-scientist-vs-data-engineer-vs-ai-vs-ml-vs-deep-learning-explained-simply-6c2612494d7c">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/Full Stack Data Scientist.avif" alt="Best fonts every designer" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Data Scientist</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">Apl 26, 2025</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Data Analyst vs Data Scientist vs Data Engineer vs AI vs ML vs Deep Learning: Explained Simply!</h3>
+
+                  <p class="blog-text">
+                    In today’s tech-driven world, data is at the heart of everything.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a target="_blank" href="https://pandit-dikshant-sharma.medium.com/what-is-a-neural-network-a-beginners-guide-to-how-machines-learn-like-humans-1c284f760690">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/Neural Network.jpg" alt="Design digest #80" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Neural Network</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">Apl 26, 2025</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Neural Networks Explained: What Neural Networks Really Are</h3>
+
+                  <p class="blog-text">
+                    If you are starting your journey in data science, machine learning, or artificial intelligence.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a target="_blank" href="https://medium.com/@pandit-dikshant-sharma/how-deep-learning-powers-self-driving-cars-1a5dac767d60">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/Deep Learning.jpg" alt="UI interactions of the week" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Deep Learning</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2025-05-11"></time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">How Deep Learning Powers Self-Driving Cars</h3>
+
+                  <p class="blog-text">
+                    Today, self-driving cars are no longer a dream. Big companies like Tesla, Waymo, and others are using Deep Learning.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a target="_blank" href="https://medium.com/@pandit-dikshant-sharma/how-to-become-a-data-analyst-without-a-computer-science-degree-da286227d5cb">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/Data Analyst.jpg" alt="The forgotten art of spacing" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Data Analyst</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2025-05-11"></time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">How to Become a Data Analyst Without a Computer Science Degree</h3>
+
+                  <p class="blog-text">
+                    The first time I Googled “how to become a data analyst,” I felt a sense of dread. 
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a target="_blank" href="https://pandit-dikshant-sharma.medium.com/common-mistakes-to-avoid-when-starting-your-career-as-a-data-analyst-cd4082e208cb">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/Data-Analyst.jpg" alt="Design digest #79" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Data Analyst</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2025-05-11"></time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Common Mistakes to Avoid When Starting Your Career as a Data Analyst</h3>
+
+                  <p class="blog-text">
+                    Starting out as a data analyst can feel like walking into a room full of experts. The tools, the techniques, the data — 
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #CONTACT
+      -->
+
+      <article class="contact" data-page="contact">
+
+        <header>
+          <h2 class="h2 article-title">Contact</h2>
+        </header>
+
+        <p class="blog-text">
+          Thank you for visiting my portfolio! If you have any questions, project ideas, job opportunities, or just want to connect — feel free to get in touch with me. I’m always open to discussing data analytics projects, or collaborative opportunities in the field of data science and technology.
+
+          Please use the contact form below to send me a message. I’ll do my best to respond as quickly as possible.
+        </p>
+
+        <br>
+
+        <section class="contact-form">
+
+          <h3 class="h3 form-title">Contact Form</h3>
+
+          <form  action="https://api.web3forms.com/submit" method="POST"> 
+
+            <div class="input-wrapper">
+              <input type="hidden" name="access_key" value="01bcaefb-177f-481c-b306-c7ce76eea5c4">
+              <input type="text" name="fullname" class="form-input" placeholder="Full name" required data-form-input>
+
+              <input type="email" name="email" class="form-input" placeholder="Email address" required data-form-input>
+            </div>
+
+            <textarea name="message" class="form-input" placeholder="Your Message" required data-form-input></textarea>
+
+            <button class="form-btn" type="submit" >
+              <ion-icon name="paper-plane"></ion-icon>
+              <span>Send Message</span>
+            </button>
+
+          </form>
+
+        </section>
+
+      </article>
+
+    </div>
+
+  </main>
+
+
+
+
+
+
+  <!--
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
